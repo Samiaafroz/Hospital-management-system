@@ -99,7 +99,6 @@ public class Login extends javax.swing.JFrame {
          }
          else
             JOptionPane.showMessageDialog(null,"Incorrect Username or Password");
-        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

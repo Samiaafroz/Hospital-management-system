@@ -42,33 +42,23 @@ public class home extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton1.setText("Add New Patient Record");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 26, 225, 54));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 25, 220, 44));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton2.setText("Add Diagnosis Information");
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 106, 225, 51));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 96, 220, 43));
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton3.setText("Full History of the Patient");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 186, 225, 51));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 165, 220, 40));
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton4.setText("Update Patient Record");
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 265, 225, 54));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 236, 220, 44));
 
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton5.setText("Hospital Information");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 347, 225, 52));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 308, 220, 42));
 
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton6.setText("Logout");
@@ -77,22 +67,14 @@ public class home extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 432, 225, 41));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 377, 220, 46));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hospital/management/system/hospital.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -130, 800, 610));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 800, 620));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
